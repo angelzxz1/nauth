@@ -6,7 +6,7 @@ import { api } from "nauth/utils/api";
 
 const Home: NextPage = () => {
   const hello = api.example.hello.useQuery({ text: "from tRPC" });
-
+  console.log('Estas siquiera cargando?')
   return (
     <>
       <Head>
